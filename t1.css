@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ 
+.main {
+    width: 900px;
+    margin: 0px auto;
+	background: #ccc;
+}
+.row {
+    margin: 0px 0px ;
+	
+}
+.row:before, .row:after{
+	content: " ";
+	display: table;
+}
+.row:after{
+	clear: both;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.box_exe{
+	border: 1px;
+	background-color: cadetblue;
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+.center_box{
+	background-color: blueviolet;
+	color: white;
+	position:absolute;
+	width: 100px;
+	height: 100px;
+	top:50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+
+.box1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+    width: 33.33333%;
+	
+}
+.box1 p {
+    background: #fcfcfc;
+    padding: 10px;
+}
+
